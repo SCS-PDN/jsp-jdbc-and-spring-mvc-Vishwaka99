@@ -42,6 +42,8 @@
         <artifactId>spring-jdbc</artifactId>
         <version>5.3.29</version> <!-- Use the latest stable version -->
     </dependency>
+    
+    
 
     <!-- MySQL JDBC Driver Dependency -->
     <dependency>
