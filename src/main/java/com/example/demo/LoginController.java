@@ -14,13 +14,13 @@ public class LoginController {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    // GET: Show Login Page
+    
     @GetMapping("/login")
     public String showLoginForm() {
         return "login";
     }
 
-    // POST: Validate Login Credentials
+    
     @PostMapping("/login")
     public String validateLogin(@RequestParam("email") String email, 
                                 @RequestParam("password") String password,
